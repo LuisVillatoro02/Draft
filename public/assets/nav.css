@@ -1,0 +1,48 @@
+body {
+    background-image: url("assets/IMG/vessel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* CSS para cambiar el color del texto a blanco */
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.nav-item {
+    margin-right: 20px; /* Separación entre elementos del menú */
+}
+
+.nav-item a.nav-link {
+    font-size: 18px;
+    color: white; /* Color de texto blanco para los enlaces */
+}
+
+.nav-item a.nav-link:hover {
+    color: #003366; /* Cambia el color al pasar el mouse */
+}
+
+.nav-item.active a.nav-link {
+    font-weight: bold;
+}
+
+/* Cambiar el color de letra a blanco en los enlaces Login y Register */
+.nav-item.login-register a {
+    color: white;
+}
+
+/* Estilo hover para los enlaces de Login y Register */
+.nav-item.login-register a:hover {
+    color: #003366; /* Cambia el color al pasar el mouse */
+}
+
+.img {
+    position:fixed; /* Permite posicionar la imagen de forma absoluta */
+}
